@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Datatypes", "2_Datatypes\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Operators", "3_Operators\3_Operators.csproj", "{DC37D1B7-415B-4EA5-8D90-7021AA4036B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_StringType", "4_StringType\4_StringType.csproj", "{0AEBD1B2-E830-4A58-A76A-06BDF51EC46C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_TypeConversion", "5_TypeConversion\5_TypeConversion.csproj", "{BDE07022-FC06-47DC-9AA9-26FD89835072}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{DC37D1B7-415B-4EA5-8D90-7021AA4036B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC37D1B7-415B-4EA5-8D90-7021AA4036B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC37D1B7-415B-4EA5-8D90-7021AA4036B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AEBD1B2-E830-4A58-A76A-06BDF51EC46C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AEBD1B2-E830-4A58-A76A-06BDF51EC46C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AEBD1B2-E830-4A58-A76A-06BDF51EC46C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AEBD1B2-E830-4A58-A76A-06BDF51EC46C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDE07022-FC06-47DC-9AA9-26FD89835072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE07022-FC06-47DC-9AA9-26FD89835072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE07022-FC06-47DC-9AA9-26FD89835072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE07022-FC06-47DC-9AA9-26FD89835072}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
