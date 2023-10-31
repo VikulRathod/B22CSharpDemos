@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_NullableType", "6_Nullabl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_ConditionalStatements", "7_ConditionalStatements\7_ConditionalStatements.csproj", "{A2FFDEAB-A927-4BE3-BA42-F46112C62BDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_ConditionalStatementsExamples", "8_ConditionalStatementsExamples\8_ConditionalStatementsExamples.csproj", "{D3C64DC5-0D92-4554-8EAD-33408B3E331F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_LoopingStatements", "9_LoopingStatements\9_LoopingStatements.csproj", "{5DE7D074-2EF3-443C-9789-9D3F2AA8D634}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{A2FFDEAB-A927-4BE3-BA42-F46112C62BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2FFDEAB-A927-4BE3-BA42-F46112C62BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2FFDEAB-A927-4BE3-BA42-F46112C62BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3C64DC5-0D92-4554-8EAD-33408B3E331F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C64DC5-0D92-4554-8EAD-33408B3E331F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C64DC5-0D92-4554-8EAD-33408B3E331F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C64DC5-0D92-4554-8EAD-33408B3E331F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DE7D074-2EF3-443C-9789-9D3F2AA8D634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DE7D074-2EF3-443C-9789-9D3F2AA8D634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DE7D074-2EF3-443C-9789-9D3F2AA8D634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DE7D074-2EF3-443C-9789-9D3F2AA8D634}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
