@@ -58,6 +58,7 @@ namespace _9_LoopingStatements
 
             #endregion for loop
 
+            #region for loop scenario
 
             //for (int i = 1; i <= 5; i++)
             //{
@@ -77,13 +78,43 @@ namespace _9_LoopingStatements
             //    Console.WriteLine(); // new line
             //}
 
-            for (int i = 5; i > 0; i--)
+            //for (int i = 5; i > 0; i--)
+            //{
+            //    for (int j = 1; j <= i; j++)
+            //    {
+            //        Console.Write($"{j}\t");
+            //    }
+            //    Console.WriteLine(); // new line
+            //}
+
+            #endregion for loop scenario
+
+
+            //int i = 1;
+            //for (; i <= 5;)
+            //{
+            //    Console.Write($"{i} ");
+            //    i++;
+            //}
+
+            //for (int j = 1; j <= 5; j++)
+            //{
+            //    // break;
+            //    continue;
+            //}
+
+            for (int i = 1; i <= 10; i++)
             {
-                for (int j = 1; j <= i; j++)
+                if (i == 2)
                 {
-                    Console.Write($"{j}\t");
+                    continue;
                 }
-                Console.WriteLine(); // new line
+                if(i == 5)
+                {
+                    break;
+                }
+
+                Console.Write($"{i} ");
             }
 
             Console.ReadLine();
