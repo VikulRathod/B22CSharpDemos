@@ -32,7 +32,8 @@ namespace _10_ArrayDemo
 
             // declaring array - second way
 
-            string[] names = new string[] { "ajay", "chetan", "vasudha", "ganesh" };
+            string[] names = new string[] 
+            { "ajay", "chetan", "vasudha", "ganesh" };
             Console.WriteLine($"\nNumber of names : {names.Length}");
 
             for (int i = 0; i < names.Length; i++)
