@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_MethodParameters", "13_M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_OptinoalMethodParameter", "14_OptinoalMethodParameter\14_OptinoalMethodParameter.csproj", "{ACB41D32-1412-4859-B0AF-DF49A988ADE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_ClassDemo", "15_ClassDemo\15_ClassDemo.csproj", "{94F83B58-4B70-46B1-986D-33DC19F21BAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{ACB41D32-1412-4859-B0AF-DF49A988ADE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACB41D32-1412-4859-B0AF-DF49A988ADE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACB41D32-1412-4859-B0AF-DF49A988ADE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94F83B58-4B70-46B1-986D-33DC19F21BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94F83B58-4B70-46B1-986D-33DC19F21BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94F83B58-4B70-46B1-986D-33DC19F21BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94F83B58-4B70-46B1-986D-33DC19F21BAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
