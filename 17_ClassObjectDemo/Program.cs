@@ -9,7 +9,7 @@ namespace _17_ClassObjectDemo
 {
     internal class Program
     {
-        static void Main(string[] args)
+       static void Main(string[] args)
         {
             int i = 0; // i is a variable of type int
 
