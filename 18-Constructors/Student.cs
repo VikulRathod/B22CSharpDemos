@@ -44,7 +44,7 @@ namespace _18_Constructors
         static Student()
         {
             Console.WriteLine("static Student() Constructor Called");
-            CourseName = "Dot Net";
+            CourseName = "Angular";
         }
 
         public void Details()
