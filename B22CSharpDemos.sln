@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18-Constructors", "18-Const
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19-Inheritance", "19-Inheritance\19-Inheritance.csproj", "{14185D96-984A-454C-BD9B-B5149226F1DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20-methodhiding", "20-methodhiding\20-methodhiding.csproj", "{9C8452AB-F044-4517-812C-F5F4347463E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{14185D96-984A-454C-BD9B-B5149226F1DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14185D96-984A-454C-BD9B-B5149226F1DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14185D96-984A-454C-BD9B-B5149226F1DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C8452AB-F044-4517-812C-F5F4347463E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8452AB-F044-4517-812C-F5F4347463E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8452AB-F044-4517-812C-F5F4347463E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8452AB-F044-4517-812C-F5F4347463E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
