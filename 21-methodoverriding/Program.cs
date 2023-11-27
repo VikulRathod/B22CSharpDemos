@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -43,6 +44,11 @@ namespace _21_methodoverriding
 
             //AdvancedSilverCustomer adc = new AdvancedSilverCustomer("Ajay", "Rathod");
             //adc.Print();
+
+            Customer c = new Customer("A", "B");
+            c.Print();
+            c = new SilverCustomer("x", "Y");
+            c.Print();
 
             Console.ReadLine();
         }
