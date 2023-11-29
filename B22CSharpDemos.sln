@@ -59,6 +59,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27-abstractkeyword", "27-ab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28-sealedkeyword", "28-sealedkeyword\28-sealedkeyword.csproj", "{20AB466C-66BC-4DDB-809A-841995074BD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29-interfaces", "29-interfaces\29-interfaces.csproj", "{BF93DD90-A262-4E14-B8ED-FDFE2DD06D43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30-namespaceDemo", "30-namespaceDemo\30-namespaceDemo.csproj", "{907E8F74-8AA8-43BF-876F-88335FD47846}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +181,14 @@ Global
 		{20AB466C-66BC-4DDB-809A-841995074BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20AB466C-66BC-4DDB-809A-841995074BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20AB466C-66BC-4DDB-809A-841995074BD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF93DD90-A262-4E14-B8ED-FDFE2DD06D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF93DD90-A262-4E14-B8ED-FDFE2DD06D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF93DD90-A262-4E14-B8ED-FDFE2DD06D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF93DD90-A262-4E14-B8ED-FDFE2DD06D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{907E8F74-8AA8-43BF-876F-88335FD47846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{907E8F74-8AA8-43BF-876F-88335FD47846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{907E8F74-8AA8-43BF-876F-88335FD47846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{907E8F74-8AA8-43BF-876F-88335FD47846}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
