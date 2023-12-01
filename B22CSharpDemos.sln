@@ -69,6 +69,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31-MathLibraryClient", "31-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31-MathLibraryClient2", "31-MathLibraryClient2\31-MathLibraryClient2.csproj", "{8E435EA0-E5DC-4C5A-BBD5-E86E5CD60F74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "32-ObjectType", "32-ObjectType\32-ObjectType.csproj", "{89136169-C3D4-4CC5-8E03-74AFAFDB2713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33-varDynamicKeywords", "33-varDynamicKeywords\33-varDynamicKeywords.csproj", "{ADB207AA-21BA-4D94-ADEF-E50BFCF043F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +211,14 @@ Global
 		{8E435EA0-E5DC-4C5A-BBD5-E86E5CD60F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E435EA0-E5DC-4C5A-BBD5-E86E5CD60F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E435EA0-E5DC-4C5A-BBD5-E86E5CD60F74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89136169-C3D4-4CC5-8E03-74AFAFDB2713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89136169-C3D4-4CC5-8E03-74AFAFDB2713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89136169-C3D4-4CC5-8E03-74AFAFDB2713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89136169-C3D4-4CC5-8E03-74AFAFDB2713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB207AA-21BA-4D94-ADEF-E50BFCF043F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB207AA-21BA-4D94-ADEF-E50BFCF043F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB207AA-21BA-4D94-ADEF-E50BFCF043F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB207AA-21BA-4D94-ADEF-E50BFCF043F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
