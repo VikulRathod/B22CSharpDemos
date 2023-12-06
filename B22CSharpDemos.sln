@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36-CompanyLibrary", "36-Com
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36-CompanyLibraryClient", "36-CompanyLibraryClient\36-CompanyLibraryClient.csproj", "{C12CA09E-F0AA-44D0-82DE-560AFC2884AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "37-ExceptionHandling", "37-ExceptionHandling\37-ExceptionHandling.csproj", "{E71A7090-F0F1-4570-9AAB-EBA19D865E55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{C12CA09E-F0AA-44D0-82DE-560AFC2884AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C12CA09E-F0AA-44D0-82DE-560AFC2884AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C12CA09E-F0AA-44D0-82DE-560AFC2884AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E71A7090-F0F1-4570-9AAB-EBA19D865E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E71A7090-F0F1-4570-9AAB-EBA19D865E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E71A7090-F0F1-4570-9AAB-EBA19D865E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E71A7090-F0F1-4570-9AAB-EBA19D865E55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
