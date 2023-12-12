@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace _36_CompanyLibrary
 {
+
+   //  public delegate bool PromoteCriteria(Employee e);
+
     public class Company
     {
         public int CompanyId { get; set; }
@@ -70,7 +73,7 @@ namespace _36_CompanyLibrary
 
         public void AllEmployees()
         {
-            if(Employees != null & Employees.Length > 0)
+            if (Employees != null & Employees.Length > 0)
             {
                 for (int i = 0; i < Employees.Length; i++)
                 {
@@ -82,6 +85,28 @@ namespace _36_CompanyLibrary
             else
             {
                 Console.WriteLine("No Employees in company");
+            }
+        }
+
+        // public void Promote(PromoteCriteria del)
+        public void Promote(Predicate<Employee> del)
+        {
+            Console.WriteLine("*** Employee Promoted ***");
+
+            if (Employees != null && Employees.Length > 0)
+            {
+                for (int i = 0; i < Employees.Length; i++)
+                {
+                    // if (Employees[i].Experience > 3)
+                    if (del(Employees[i]))
+                    {
+                        Console.WriteLine($"{Employees[i].Name} is promoted");
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("There are no employees to promote");
             }
         }
     }

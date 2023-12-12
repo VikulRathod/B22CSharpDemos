@@ -13,7 +13,7 @@ namespace _36_CompanyLibrary
         public string City { get; set; }
         public int Experience { get; set; }
 
-        public Company Company { get; set; }
+        public Company Company { get; set; } // navigation property
 
         public void Details()
         {

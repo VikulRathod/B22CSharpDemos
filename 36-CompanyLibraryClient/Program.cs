@@ -57,18 +57,42 @@ namespace _36_CompanyLibraryClient
             c.Details();
             c.AllEmployees();
 
-            string name = c[101];
-            Console.WriteLine($"Employee Name : {name}"); // Mahesh
+            // PromoteCriteria del = PromotionLogic;
+            Predicate<Employee> del = PromotionLogic;
+            c.Promote(del);
 
-            c[101] = "Shital";
+            // PromoteCriteria del1 = PromotionLogic2;
+            Predicate<Employee> del1 = PromotionLogic2;
+            c.Promote(del1);
 
-            name = c[101];
-            Console.WriteLine($"Employee Name : {name}"); // Shital
+            #region Indexer
 
-            Employee ee = c["Shital"];
-            Console.WriteLine($"{ee.EmployeeId} {ee.Name} {ee.City} {ee.Experience}");
+            //string name = c[101];
+            //Console.WriteLine($"Employee Name : {name}"); // Mahesh
+
+            //c[101] = "Shital";
+
+            //name = c[101];
+            //Console.WriteLine($"Employee Name : {name}"); // Shital
+
+            //Employee ee = c["Shital"];
+            //Console.WriteLine($"{ee.EmployeeId} {ee.Name} {ee.City} {ee.Experience}");
+
+            #endregion Indexer
 
             Console.ReadLine();
+        }
+
+        // callback function
+        static bool PromotionLogic(Employee e)
+        {
+            return e.City == "Mumbai";
+        }
+
+        // callback function
+        static bool PromotionLogic2(Employee e)
+        {
+            return e.Name.StartsWith("V");
         }
     }
 }
