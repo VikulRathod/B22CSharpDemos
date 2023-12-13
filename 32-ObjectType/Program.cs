@@ -145,7 +145,8 @@ namespace _32_ObjectType
 
         public override bool Equals(object obj)
         {
-            Student s = (Student) obj;
+            // Student s = (Student) obj;
+            Student s = obj as Student;
 
             return this.FirstName.Equals(s.FirstName) &&
                 this.LastName.Equals(s.LastName);
