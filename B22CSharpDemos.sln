@@ -105,6 +105,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "47_isasKeywords", "47_isasK
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "48_stringAndstringbuilder", "48_stringAndstringbuilder\48_stringAndstringbuilder.csproj", "{DFE05A34-8A5C-4F97-9764-1F3E07530808}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "49_LazyLoading", "49_LazyLoading\49_LazyLoading.csproj", "{8AB2AA4D-1120-4B70-BF4F-E7506FFA1ACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "50_Reflection", "50_Reflection\50_Reflection.csproj", "{A5C89133-C5BA-4F70-BA7C-CE5412B9D668}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -315,6 +319,14 @@ Global
 		{DFE05A34-8A5C-4F97-9764-1F3E07530808}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFE05A34-8A5C-4F97-9764-1F3E07530808}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFE05A34-8A5C-4F97-9764-1F3E07530808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AB2AA4D-1120-4B70-BF4F-E7506FFA1ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB2AA4D-1120-4B70-BF4F-E7506FFA1ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB2AA4D-1120-4B70-BF4F-E7506FFA1ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB2AA4D-1120-4B70-BF4F-E7506FFA1ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C89133-C5BA-4F70-BA7C-CE5412B9D668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C89133-C5BA-4F70-BA7C-CE5412B9D668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C89133-C5BA-4F70-BA7C-CE5412B9D668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C89133-C5BA-4F70-BA7C-CE5412B9D668}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
