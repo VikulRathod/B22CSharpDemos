@@ -31,8 +31,8 @@ namespace _52_CollectionClasses
 
             //ArrayList numbers = new ArrayList(2);
             //numbers.Add(10);
-            //numbers.Add(20);
-            //numbers.Add(30);
+            //numbers.Add("vishal");
+            //numbers.Add(10.5f);
 
             //Console.WriteLine("*** Original Collection ***");
 
@@ -127,29 +127,77 @@ namespace _52_CollectionClasses
 
             #region Hastable
 
-            Hashtable students = new Hashtable();
-            students.Add(1, "Mahesh");
-            students.Add(2, "Suresh");
-            students.Add(3, "Ramesh");
-            // students.Add(3, "Kunal");
+            //Hashtable students = new Hashtable();
+            //students.Add(1, "Mahesh");
+            //students.Add(2, "Suresh");
+            //students.Add(3, "Ramesh");
+            //// students.Add(3, "Kunal");
 
-            Console.WriteLine("*** ALL ITEMS ***");
+            //Console.WriteLine("*** ALL ITEMS ***");
 
-            foreach (DictionaryEntry item in students)
-            {
-                Console.WriteLine($"Key : {item.Key} Value : {item.Value}");
-            }
+            //foreach (DictionaryEntry item in students)
+            //{
+            //    Console.WriteLine($"Key : {item.Key} Value : {item.Value}");
+            //}
 
-            bool b1 = students.ContainsKey(4);
-            Console.WriteLine($"4 Key : {b1}");
+            //bool b1 = students.ContainsKey(4);
+            //Console.WriteLine($"4 Key : {b1}");
 
-            b1 = students.ContainsValue("Mahesh");
-            Console.WriteLine($"Mahesh Value : {b1}");
+            //b1 = students.ContainsValue("Mahesh");
+            //Console.WriteLine($"Mahesh Value : {b1}");
 
-            var val = students[2];
-            Console.WriteLine($"2 : {val}");
+            // object val = students[2];
+            //Console.WriteLine($"2 : {val}");
 
             #endregion Hastable
+
+            #region Stack
+
+            //Stack visitedSites = new Stack();
+
+            //visitedSites.Push("google.com");
+            //visitedSites.Push("facebook.com");
+            //visitedSites.Push("facebook.com/friends");
+            //visitedSites.Push("facebook.com/users/ajay");
+
+            //Console.WriteLine($"Number of items : {visitedSites.Count}");
+
+            //var site = visitedSites.Pop(); // last added item
+            //Console.WriteLine($"Returned : {site}");
+            //Console.WriteLine($"Pop() : Number of items : {visitedSites.Count}");
+
+            //// site = visitedSites.Pop(); // last added item
+            //site = visitedSites.Peek();
+            //Console.WriteLine($"Returned : {site}");
+            //Console.WriteLine($"Peek() : Number of items : {visitedSites.Count}");
+
+            #endregion Stack
+
+            #region Queue
+
+            Queue bankToken = new Queue();
+
+            bankToken.Enqueue("ajay");
+            bankToken.Enqueue("chetan");
+            bankToken.Enqueue("ganesh");
+            bankToken.Enqueue("anshul");
+
+            Console.WriteLine($"Number of items: {bankToken.Count}");
+
+            //foreach (var item in bankToken)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            var token = bankToken.Dequeue();
+            Console.WriteLine($"Dequeue() : {token}");
+            Console.WriteLine($"Number of items: {bankToken.Count}");
+
+            token = bankToken.Peek();
+            Console.WriteLine($"Peek() : {token}");
+            Console.WriteLine($"Number of items: {bankToken.Count}");
+
+            #endregion Queue
 
             Console.ReadLine();
         }
