@@ -149,6 +149,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_SetOperators", "9_SetOper
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_PartitioningOperators", "10_PartitioningOperators\10_PartitioningOperators.csproj", "{831DDD98-A8FB-401B-96B1-7156ECE557FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_ConversionOperators", "11_ConversionOperators\11_ConversionOperators.csproj", "{9745E32E-C1C5-4FE4-AB44-8BC596CE8EB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_JoinOperators", "12_JoinOperators\12_JoinOperators.csproj", "{688341EE-E051-4B6A-AA87-1D5EDCB52C1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -443,6 +447,14 @@ Global
 		{831DDD98-A8FB-401B-96B1-7156ECE557FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{831DDD98-A8FB-401B-96B1-7156ECE557FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{831DDD98-A8FB-401B-96B1-7156ECE557FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9745E32E-C1C5-4FE4-AB44-8BC596CE8EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9745E32E-C1C5-4FE4-AB44-8BC596CE8EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9745E32E-C1C5-4FE4-AB44-8BC596CE8EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9745E32E-C1C5-4FE4-AB44-8BC596CE8EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{688341EE-E051-4B6A-AA87-1D5EDCB52C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688341EE-E051-4B6A-AA87-1D5EDCB52C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688341EE-E051-4B6A-AA87-1D5EDCB52C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688341EE-E051-4B6A-AA87-1D5EDCB52C1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -458,6 +470,8 @@ Global
 		{C63A560E-5074-455B-8C61-821300EA9F7E} = {5D8A355C-DC34-44CF-A5EA-786E546CD7E5}
 		{E880703B-907F-4387-9161-21FB1E5C923B} = {5D8A355C-DC34-44CF-A5EA-786E546CD7E5}
 		{831DDD98-A8FB-401B-96B1-7156ECE557FE} = {5D8A355C-DC34-44CF-A5EA-786E546CD7E5}
+		{9745E32E-C1C5-4FE4-AB44-8BC596CE8EB3} = {5D8A355C-DC34-44CF-A5EA-786E546CD7E5}
+		{688341EE-E051-4B6A-AA87-1D5EDCB52C1C} = {5D8A355C-DC34-44CF-A5EA-786E546CD7E5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {12C8605D-C0B8-49E0-8869-A9E6AC7E63EC}
