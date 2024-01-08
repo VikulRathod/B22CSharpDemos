@@ -15,13 +15,18 @@ namespace _1_FrameworkConsoleApp
 
             Console.WriteLine("Welcome To C#"); // to display output on console screen
 
+            //            Func<string> del = () => "Hello";
+            // var del = () => "Hello";
+
+            //var del = () => null;
+
 
             Console.ReadLine(); // output scrren will wait for user input
         }
 
         static void main(string[] args)
-        { 
-        
+        {
+
         }
     }
 }
